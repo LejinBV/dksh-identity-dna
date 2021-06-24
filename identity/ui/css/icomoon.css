@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'dksh';
+  src:  url('fonts/dksh.eot?opv9xd');
+  src:  url('fonts/dksh.eot?opv9xd#iefix') format('embedded-opentype'),
+    url('fonts/dksh.ttf?opv9xd') format('truetype'),
+    url('fonts/dksh.woff?opv9xd') format('woff'),
+    url('fonts/dksh.svg?opv9xd#dksh') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dksh' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+    content: "\e900";
+  }
+  .icon-arrow-right:before {
+    content: "\e901";
+  }
+  .icon-bookmark:before {
+    content: "\e902";
+  }
+  .icon-sustainability:before {
+    content: "\e903";
+  }
+  .icon-care:before {
+    content: "\e904";
+  }
+  .icon-collaboration:before {
+    content: "\e906";
+  }
+  .icon-close:before {
+    content: "\e905";
+  }
+  .icon-deliver:before {
+    content: "\e907";
+  }
+  .icon-empowerment:before {
+    content: "\e908";
+  }
+  .icon-enterpreneruship:before {
+    content: "\e909";
+  }
+  .icon-flag:before {
+    content: "\e90a";
+  }
+  .icon-download:before {
+    content: "\e90b";
+  }
+  .icon-faq:before {
+    content: "\e90c";
+  }
+  .icon-GMT-tollbox:before {
+    content: "\e90d";
+  }
+  .icon-grow:before {
+    content: "\e90e";
+  }
+  .icon-home:before {
+    content: "\e90f";
+  }
+  .icon-hr-zone:before {
+    content: "\e910";
+  }
+  .icon-integrity:before {
+    content: "\e911";
+  }
+  .icon-market-hub:before {
+    content: "\e912";
+  }
+  .icon-maya:before {
+    content: "\e913";
+  }
+  .icon-multimedia:before {
+    content: "\e914";
+  }
+  .icon-play:before {
+    content: "\e915";
+  }
+  .icon-qna:before {
+    content: "\e916";
+  }
+  .icon-Vector:before {
+    content: "\e917";
+  }
+  
