@@ -756,12 +756,16 @@ body{
 				}
 
 			}
-
-			.culture-PP{
-				
-			}
 		}
 	}
+  &.id-video-pp{
+    height: 100%;
+    @media (max-width: 950px){
+      .modal-dialog {
+          height: 100%;
+      }
+    }
+  }
 
 }
 
@@ -867,9 +871,33 @@ body{
 .faq-wraper{
   .faq-banner{
     height: 600px;
-    background: url(../images/happy-employee.jpg);
+    background: url(../images/qna.jpg);
     background-size: cover;
-    background-position: 0 -280px;
+    background-position: 0 -70px;
+    position: relative;
+    &::after{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      content: "";
+      z-index: 1;
+      background: rgba(0,0,0,.3);
+    }
+    .container{
+      height: 100%;
+      display: flex;
+    }
+    .inner-wrap-v{
+      position: relative;
+      z-index: 2;
+      margin-top: auto;
+      margin-bottom: 20px;
+      .title-3, .title-2{
+        color: $white;
+      }
+    }
   }
   .container{
     padding-top: 50px ;
@@ -885,7 +913,7 @@ body{
       }
       .accordion-button{
         padding: 40px;
-        font-size: 1.5rem;
+        font-size:1.7rem;
         font-weight: bold;
         color: $black;
       }
@@ -903,9 +931,10 @@ body{
 
 
 .video-wall-header {
-  background: url(../images/dna.jpg) center;
+  background: url(../images/happy-employee.jpg) center;
   background-size: cover;
   height: 600px;
+  background-position: 0 -280px;
   display: flex;
   position: relative;
   &::after{
@@ -926,7 +955,7 @@ body{
     position: relative;
     z-index: 2;
     margin-top: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     .title-3, .title-2{
       color: $white;
     }
@@ -960,6 +989,7 @@ body{
         color: $black;
         margin-right: 20px;
         border: solid 2px $black;
+        font-size: 18px;
         &.active {
           border-color: $act-r;
           color: $black;
@@ -978,8 +1008,8 @@ body{
         padding: 0;
       }
       .video-wrap {
-        border: 10px solid #fff;
-        box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+        // border: 10px solid #fff;
+        // box-shadow: 0 0 20px rgba(0, 0, 0, .3);
         -webkit-transition: .3s ease-in-out;
         -moz-transition: .3s ease-in-out;
         -o-transition: .3s ease-in-out;
