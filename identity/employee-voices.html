@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DKSH Identity</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="ui/images/favicon/apple-touch-icon.png/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="ui/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="ui/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="ui/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="ui/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+
+
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="ui/css/icomoon.css">
+ <link rel="stylesheet" href="ui/css/style.css">
+
+ <!-- Option 1: Bootstrap Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60470752-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-60470752-1');
+  </script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top id-header">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <a href="../index.html" class="home-icon icon-home "></a>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Our Identity </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">FAQ </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:GroupMarketing@dksh.com">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex ms-auto logo">
+          <a href="#"><img src="ui/images/dksh-logo.svg" alt=""></a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="video-wall-header">
+    <div class="container">
+      <div class="inner-wrap-v">
+        <p class="title-2 white">Employee voices</p>
+        <h1 class="title-3 white">What do our values mean to you?</h1>
+      </div>
+    </div>
+  </section>
+  <!-- <article class="breadcrumb">
+    <div class="container">
+      <a href="../identity.html"><span class="icon-left-arrow"></span>Back to home</a>
+    </div>
+  </article> -->
+
+  <section class="video-wall">
+    <div class="container">
+      <ul class="filtering">
+        <li data-filter="*" class="active">All</li>
+        <li data-filter=".purpose-v">Purpose</li>
+        <li data-filter=".integrity">Integrity</li>
+        <li data-filter=".empowerment">Empowerment</li>
+        <li data-filter=".collaboration">Collaboration</li>
+        <li data-filter=".entrepreneurship">Entrepreneurship</li>
+        <li data-filter=".sustainability">Sustainability</li>
+        <li data-filter=".people-dna">People DNA</li>
+      </ul>
+
+      <div class="mob-pg-caller">
+        <p>Filter by category</p>
+        <select id="filtering-drop" class="filtering-drop">
+					<option value="*">All</option>
+					<option value=".integrity">Integrity</option>
+					<option value=".empowerment">Empowerment</option>
+					<option value=".collaboration">Collaboration</option>
+					<option value=".entrepreneurship">Entrepreneurship</option>
+					<option value=".sustainability">Sustainability</option>
+        </select>
+      </div>
+      <div id="gallery-container" class="row gallery grid">
+        <div class="col-xl-2 col-sm-4 grid-item integrity">
+          <div class="video-wrap">
+
+            <video controls poster="ui/video/integrity/video-1.jpg">
+							<source src="ui/video/integrity/video-1.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Hui Ying Toh
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xl-4 col-sm-4 grid-item purpose-v">
+          <div class="video-wrap">
+
+            <video controls poster="ui/video/purpose/Atul Nagarkar_Act with Purpose-horiz.mp4">
+							<source src="ui/video/purpose/Atul Nagarkar_Act with Purpose-horiz.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Hui Ying Toh
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+
+            <video controls poster="ui/video/integrity/video-2.jpg">
+							<source src="ui/video/integrity/video-2.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Amanda Tan
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+
+            <video controls poster="ui/video/integrity/video-4.jpg">
+							<source src="ui/video/integrity/video-4.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Le Thi Thu Huyen
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/video-5.jpg">
+							<source src="ui/video/integrity/video-5.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Jay Sern Chia
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/yumi-chen.jpg">
+							<source src="ui/video/integrity/yumi-chen.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Yumi Chen
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/sophearith-muny.jpg">
+							<source src="ui/video/integrity/sophearith-muny.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Sophearith Many
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/sophanachan.jpg">
+							<source src="ui/video/integrity/sophanachan.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Sophana Chan
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/sokheang-nov.jpg">
+							<source src="ui/video/integrity/sokheang-nov.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Sokheang Nov
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/siti-aisyah-binti-hanafi.jpg">
+							<source src="ui/video/integrity/siti-aisyah-binti-hanafi.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Siti Aisyah Binti Hanafi
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/siew-lee-ngim.jpg">
+							<source src="ui/video/integrity/siew-lee-ngim.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Siew Lee Ngim
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/rithy-sar.jpg">
+							<source src="ui/video/integrity/rithy-sar.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Rithy Sar
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/loh-yi-wen.jpg">
+							<source src="ui/video/integrity/loh-yi-wen.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Yi Wen Loh
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/lee-yi-han.jpg">
+							<source src="ui/video/integrity/lee-yi-han.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Lee Yi han
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/krid-ruksiriphong.jpg">
+							<source src="ui/video/integrity/krid-ruksiriphong.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Krid Ruksiriphong
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/juthaporn-thaweesat.jpg">
+							<source src="ui/video/integrity/juthaporn-thaweesat.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Juthaporn Thaweesat
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/jocelyn-tai.jpg">
+							<source src="ui/video/integrity/jocelyn-tai.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Jocelyn Tai
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/jason_chen.jpg">
+							<source src="ui/video/integrity/jason_chen.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Jason Chen
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/hoa-dang.jpg">
+							<source src="ui/video/integrity/hoa-dang.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Hoa Dang
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/goh-jinn-wei.jpg">
+							<source src="ui/video/integrity/goh-jinn-wei.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Goh Jinn Wei
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/fumie-peng.jpg">
+							<source src="ui/video/integrity/fumie-peng.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Fumie Peng
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/edison-pan.jpg">
+							<source src="ui/video/integrity/edison-pan.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Edison Pan
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/darren-lo.jpg">
+							<source src="ui/video/integrity/darren-lo.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Darren Lo
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/aris-isa.jpg">
+							<source src="ui/video/integrity/aris-isa.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Aris Isa
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item integrity ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/integrity/aaron-ng.jpg">
+							<source src="ui/video/integrity/aaron-ng.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Aaron Ng
+            </div>
+          </div>
+        </div>
+        <!-- Empowerment -->
+        <div class="col-xl-2 col-sm-4 grid-item empowerment ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/adrian-chow.jpg">
+							<source src="ui/video/empowerment/adrian-chow.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Adrian Chow
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/chee-kok-lim.jpg">
+							<source src="ui/video/empowerment/chee-kok-lim.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Chee Kok Lim
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/grace-lee.jpg">
+							<source src="ui/video/empowerment/grace-lee.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Grace Lee
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/lily-lee.jpg">
+							<source src="ui/video/empowerment/lily-lee.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Lily Lee
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/luke-hsu.jpg">
+							<source src="ui/video/empowerment/luke-hsu.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Luke Hsu
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/michelle-eng.jpg">
+							<source src="ui/video/empowerment/michelle-eng.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Michelle Eng
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/phalla-sm.jpg">
+							<source src="ui/video/empowerment/phalla-sm.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Sovanphalla Heang
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/samantha-thong.jpg">
+							<source src="ui/video/empowerment/samantha-thong.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Samantha Thong
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/vuthda.jpg">
+							<source src="ui/video/empowerment/vuthda.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Vuthda Nim
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/yeong-kein-aw.jpg">
+							<source src="ui/video/empowerment/yeong-kein-aw.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Aw Yeong Kein
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/fin_linda-so.jpg">
+							<source src="ui/video/empowerment/fin_linda-so.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Linda So
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/gerard-roca.jpg">
+							<source src="ui/video/empowerment/gerard-roca.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Gerard Roca
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment ">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/hec-katrina-lo.jpg">
+							<source src="ui/video/empowerment/hec-katrina-lo.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Katrina Lo
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/kongwette.jpg">
+							<source src="ui/video/empowerment/kongwette.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Kongwette Aonlamoon
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment">
+          <div class="video-wrap">
+
+            <video controls poster="ui/video/empowerment/leo-ng.jpg">
+							<source src="ui/video/empowerment/leo-ng.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Leo Ng
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment">
+          <div class="video-wrap">
+
+            <video controls poster="ui/video/empowerment/nicha.jpg">
+							<source src="ui/video/empowerment/nicha.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Nicha Panapitakkul
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/sofiacastro.jpg">
+							<source src="ui/video/empowerment/sofiacastro.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Sofia Castro
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item empowerment">
+          <div class="video-wrap">
+            <video controls poster="ui/video/empowerment/victorcho.jpg">
+							<source src="ui/video/empowerment/victorcho.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Victor Cho
+            </div>
+          </div>
+        </div>
+
+        <!-- collaboration -->
+
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/abderrahmane-sairi.jpg">
+							<source src="ui/video/collaboration/abderrahmane-sairi.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Abderrahmane Sairi
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/nitipholpiyakraivudh.jpg">
+							<source src="ui/video/collaboration/nitipholpiyakraivudh.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Nitiphol Piyakraivudh
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/anna-wilk.jpg">
+							<source src="ui/video/collaboration/anna-wilk.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Anna Wilk
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/chino-tang.jpg">
+							<source src="ui/video/collaboration/chino-tang.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Chino Tang
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/christy-chi.jpg">
+							<source src="ui/video/collaboration/christy-chi.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Christy Chi
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/dic-leung.jpg">
+							<source src="ui/video/collaboration/dic-leung.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Dic Leung
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/ethan-liang.jpg">
+							<source src="ui/video/collaboration/ethan-liang.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Ethan Liang
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/hai-thanh-tran.jpg">
+							<source src="ui/video/collaboration/hai-thanh-tran.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Hai Thanh Tran
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/james-hsu.jpg">
+							<source src="ui/video/collaboration/james-hsu.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              James Hsu
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/kathrin-silja-schole.jpg">
+							<source src="ui/video/collaboration/kathrin-silja-schole.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Kathrin Silja Schole
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/preksa.jpg">
+							<source src="ui/video/collaboration/preksa.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Preksa Vann
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/somaly.jpg">
+							<source src="ui/video/collaboration/somaly.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Somaly Chhan
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/tiffaniya-fernando.jpg">
+							<source src="ui/video/collaboration/tiffaniya-fernando.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Tiffaniya Fernando
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/trang-dinh-van-le.jpg">
+							<source src="ui/video/collaboration/trang-dinh-van-le.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Trang Dinh Van Le
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/chun-fei.jpg">
+							<source src="ui/video/collaboration/chun-fei.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Lim Chun Fei
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/eva.jpg">
+							<source src="ui/video/collaboration/eva.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Eva Chan
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/hwa-lai.jpg">
+							<source src="ui/video/collaboration/hwa-lai.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Liang Hwa Lai
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/jake-teoh.jpg">
+							<source src="ui/video/collaboration/jake-teoh.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Jake Teoh
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/jason-law.jpg">
+							<source src="ui/video/collaboration/jason-law.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Jason Law
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/mohamed-fazil.jpg">
+							<source src="ui/video/collaboration/mohamed-fazil.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Mohamed Fazil
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/sandra.jpg">
+							<source src="ui/video/collaboration/sandra.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Sandra Sari Ahip
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/yeong-kein.jpg">
+							<source src="ui/video/collaboration/yeong-kein.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Yeong Kein
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item collaboration">
+          <div class="video-wrap">
+            <video controls poster="ui/video/collaboration/yvonne.jpg">
+							<source src="ui/video/collaboration/yvonne.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Yvonne Swa
+            </div>
+          </div>
+        </div>
+
+
+        <!-- entrepreneurship -->
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/geraldine-kiew.jpg">
+							<source src="ui/video/entrepreneurship/geraldine-kiew.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Geraldine Kiew
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/brenda-lim.jpg">
+							<source src="ui/video/entrepreneurship/brenda-lim.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Brenda Lim
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/maline-agm.jpg">
+							<source src="ui/video/entrepreneurship/maline-agm.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Maline Srun
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/adrian-chow.jpg">
+							<source src="ui/video/entrepreneurship/adrian-chow.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Adrian Chow
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/natalie-chang.jpg">
+							<source src="ui/video/entrepreneurship/natalie-chang.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Natalie Chang
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/cherry-lam.jpg">
+							<source src="ui/video/entrepreneurship/cherry-lam.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Cherry Lam
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/cook-chung.jpg">
+							<source src="ui/video/entrepreneurship/cook-chung.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Cook Chung
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/eugeniakrasnok.jpg">
+							<source src="ui/video/entrepreneurship/eugeniakrasnok.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Eugenia Krasnok
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/gary-yang.jpg">
+							<source src="ui/video/entrepreneurship/gary-yang.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Gary Yang
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/pheap-sm.jpg">
+							<source src="ui/video/entrepreneurship/pheap-sm.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Souphornpheap Men
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/sovandy-sm.jpg">
+							<source src="ui/video/entrepreneurship/sovandy-sm.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Sovandy Nang
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/wencylung.jpg">
+							<source src="ui/video/entrepreneurship/wencylung.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Wency Lung
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/michelle-thoo.jpg">
+							<source src="ui/video/entrepreneurship/michelle-thoo.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Michelle Thoo
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/wong-keith-wayne.jpg">
+							<source src="ui/video/entrepreneurship/wong-keith-wayne.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Wong Keith Wayne
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item entrepreneurship">
+          <div class="video-wrap">
+            <video controls poster="ui/video/entrepreneurship/bernard.jpg">
+							<source src="ui/video/entrepreneurship/bernard.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Bernard Huen
+            </div>
+          </div>
+        </div>
+
+        <!-- sustainability -->
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/bernadette-lim-wei-see.jpg">
+							<source src="ui/video/sustainability/bernadette-lim-wei-see.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Bernadette Lim Wei See
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/chawakorn-thammason.jpg">
+							<source src="ui/video/sustainability/chawakorn-thammason.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Chawakorn Thammason
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/roathbopha-lim.jpg">
+							<source src="ui/video/sustainability/roathbopha-lim.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Rothbopha Lim
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/ernest-bc-khoo.jpg">
+							<source src="ui/video/sustainability/ernest-bc-khoo.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Ernest BC Khoo
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/kristie-wong.jpg">
+							<source src="ui/video/sustainability/kristie-wong.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Kristie Wong
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/nicolette-wong.jpg">
+							<source src="ui/video/sustainability/nicolette-wong.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Nicolette Wong
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/pauline-yu.jpg">
+							<source src="ui/video/sustainability/pauline-yu.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Pauline Yu
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/safety-khanisorn.jpg">
+							<source src="ui/video/sustainability/safety-khanisorn.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Khanisorn Thongchiew
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/tw-robin.jpg">
+							<source src="ui/video/sustainability/tw-robin.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Robin Feng
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/muonmary-uch.jpg">
+							<source src="ui/video/sustainability/muonmary-uch.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Muonmary Uch
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/farhan-shah.jpg">
+							<source src="ui/video/sustainability/farhan-shah.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Farhanshah Firozdin
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/jason-loo.jpg">
+							<source src="ui/video/sustainability/jason-loo.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Jason Loo
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/aaron-ng.jpg">
+							<source src="ui/video/sustainability/aaron-ng.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Aaron Ng
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/michelle-ng.jpg">
+							<source src="ui/video/sustainability/michelle-ng.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Michelle Ng
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/michael-chng.jpg">
+							<source src="ui/video/sustainability/michael-chng.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Michael Ch'ng
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-sm-4 grid-item sustainability">
+          <div class="video-wrap">
+            <video controls poster="ui/video/sustainability/sharon-tan.jpg">
+							<source src="ui/video/sustainability/sharon-tan.mp4" type="video/mp4">
+						</video>
+            <div class="name">
+              Sharon Tan
+            </div>
+          </div>
+        </div>
+
+
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer >
+    <article class="dksh-tagline">Delivering Growth – In Asia and Beyond. </article>
+    <section class="copyright">© DKSH Management Ltd. | Group Marketing</section>
+  </footer>
+
+  <div class="scrollToTop top"></div>
+  <!-- Script for smooth scrolling -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script src="ui/js/isotope.pkgd.min.js"></script>
+  <script>
+
+  var $grid = $('.gallery').imagesLoaded( function() {
+    // init Isotope after all images have loaded
+    $grid.isotope({
+      // options...
+      itemSelector: '.grid-item'
+    });
+    
+    $('.filtering li').click(function() {
+        $('.filtering li').removeClass('active');
+        $(this).addClass('active');
+        var selector = $(this).attr('data-filter');
+        $('.gallery').isotope({
+          filter: selector,
+          sortBy: 'random',
+          layoutMode: 'fitRows',
+        })
+        return false;
+      });
+      $('#filtering-drop').on('change', function(event) {
+        var filterValue = this.value;
+        console.log(filterValue.value);
+        $('.gallery').isotope({
+          filter: filterValue,
+        })
+      });
+  });
+
+    var figure = $(".grid-item").hover(hoverVideo, hideVideo);
+
+    function hoverVideo(e) {
+      $('video', this).get(0).play();
+    }
+
+    function hideVideo(e) {
+      $('video', this).get(0).pause();
+    }
+  </script>
+</body>
+
+</html>
