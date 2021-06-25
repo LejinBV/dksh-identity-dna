@@ -1066,6 +1066,16 @@ body {
           flex-direction: column;
 }
 
+.id-modal.id-video-pp {
+  height: 100%;
+}
+
+@media (max-width: 950px) {
+  .id-modal.id-video-pp .modal-dialog {
+    height: 100%;
+  }
+}
+
 .checklist {
   position: relative;
   z-index: 101;
@@ -1168,9 +1178,39 @@ footer .copyright {
 
 .faq-wraper .faq-banner {
   height: 600px;
-  background: url(../images/happy-employee.jpg);
+  background: url(../images/qna.jpg);
   background-size: cover;
-  background-position: 0 -280px;
+  background-position: 0 -70px;
+  position: relative;
+}
+
+.faq-wraper .faq-banner::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.faq-wraper .faq-banner .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.faq-wraper .faq-banner .inner-wrap-v {
+  position: relative;
+  z-index: 2;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.faq-wraper .faq-banner .inner-wrap-v .title-3, .faq-wraper .faq-banner .inner-wrap-v .title-2 {
+  color: #fff;
 }
 
 .faq-wraper .container {
@@ -1193,7 +1233,7 @@ footer .copyright {
 
 .faq-wraper .container .accordion .accordion-button {
   padding: 40px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bold;
   color: #1A1A1A;
 }
@@ -1208,9 +1248,10 @@ footer .copyright {
 }
 
 .video-wall-header {
-  background: url(../images/dna.jpg) center;
+  background: url(../images/happy-employee.jpg) center;
   background-size: cover;
   height: 600px;
+  background-position: 0 -280px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1239,7 +1280,7 @@ footer .copyright {
   position: relative;
   z-index: 2;
   margin-top: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .video-wall-header .inner-wrap-v .title-3, .video-wall-header .inner-wrap-v .title-2 {
@@ -1280,6 +1321,7 @@ footer .copyright {
   color: #1A1A1A;
   margin-right: 20px;
   border: solid 2px #1A1A1A;
+  font-size: 18px;
 }
 
 .video-wall .container .filtering li.active {
@@ -1298,9 +1340,6 @@ footer .copyright {
 }
 
 .video-wall .gallery .grid-item .video-wrap {
-  border: 10px solid #fff;
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   position: relative;
