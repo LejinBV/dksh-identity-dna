@@ -171,7 +171,7 @@ body{
 				text-align: center;
 				color: $white;
 				font-size: 3rem;
-				max-width: 1110px;
+				max-width: 1190px;
 				width: 100%;
 				padding: 0 30px;
 				position: relative;
@@ -180,10 +180,27 @@ body{
 				p{
 						margin-bottom: 15px;
 						color: $white;
+            font-size: 3.125rem;
+            font-weight: bold;
+            line-height: 4.063rem;
+            @media (max-width:767px) {
+              font-size: 2rem;
+            }
+            @media (max-width:600px) {
+              font-size: 1.2rem;
+              line-height: 1.9rem;
+            }
 				}
 				span{
-						color: $white;
-						font-size: 1.625rem;
+          color: $white;
+          font-size: 1.625rem;
+          @media (max-width:767px) {
+            font-size: 1rem;
+          }
+          @media (max-width:600px) {
+            font-size:.9rem;
+            line-height: 1.9rem;
+          }
 				}
 		}
 		.dksh-culture{
@@ -728,6 +745,12 @@ body{
 							flex: 260px 0 0;
               @media (max-width:950px) {
                 max-width: initial;
+                flex: 200px 0 0;
+                padding: 0 17px;
+                height: initial;
+              }
+              @media (max-width:600px) {
+                max-width: initial;
                 flex: 1 0 0;
                 padding: 0 17px;
                 height: initial;
@@ -737,6 +760,9 @@ body{
 								margin: auto;
 								color: $dksh-r;
                 @media (max-width:950px) {
+                 font-size: 60px;
+                }
+                @media (max-width:600px) {
                  font-size: 36px;
                 }
 							}
@@ -883,7 +909,7 @@ body{
       bottom: 0;
       content: "";
       z-index: 1;
-      background: rgba(0,0,0,.3);
+      background: rgba(0, 0, 0, 0.2);
     }
     .container{
       height: 100%;
@@ -960,6 +986,9 @@ body{
       color: $white;
     }
   }
+  @media (max-width:950px) {
+    background-position: center;
+  }
 }
 
 .video-wall {
@@ -969,6 +998,7 @@ body{
       @media (max-width: 960px) {
         display: block;
         margin-top: 25px;
+        margin-bottom: 25px;
       }
     }
     .filtering {
@@ -990,6 +1020,9 @@ body{
         margin-right: 20px;
         border: solid 2px $black;
         font-size: 18px;
+        span{
+          color: $act-r;
+        }
         &.active {
           border-color: $act-r;
           color: $black;
@@ -1009,7 +1042,7 @@ body{
       }
       .video-wrap {
         // border: 10px solid #fff;
-        // box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         -webkit-transition: .3s ease-in-out;
         -moz-transition: .3s ease-in-out;
         -o-transition: .3s ease-in-out;
@@ -1020,10 +1053,11 @@ body{
           vertical-align: bottom;
         }
         .name {
-          padding: 10px 20px;
-          font-size: 17px;
-          color: #fff;
-          background: $black;
+          font-size: 20px;
+          color: $white;
+          background: $m-blue;
+          padding:20px 20px;
+          font-weight: bold;
         }
       }
       &:hover {

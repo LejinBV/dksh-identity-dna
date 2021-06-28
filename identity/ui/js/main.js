@@ -24,14 +24,13 @@ $(document).ready(function() {
         // a poor man's stop video
         $("#video").attr('src',$videoSrc); 
     }) 
-        
-        
+    // document ready 
     
+
+});
     
-      
-      
-    // document ready  
-    });
-    
+    function onclickfunction() {
+        alert('Press Ctrl + D to bookmark this page');
+      }
     
     
