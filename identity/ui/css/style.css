@@ -757,7 +757,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     width: auto;
-    margin-left: 30px;
+    margin-left: 0;
     margin-right: 30px;
     margin-bottom: auto;
     margin-top: 0;
@@ -1411,8 +1411,8 @@ footer .copyright {
 
 .video-wall .gallery .grid-item .video-wrap .name {
   font-size: 20px;
-  color: #fff;
-  background: #00B4D8;
+  color: #1A1A1A;
+  background: #fff;
   padding: 20px 20px;
   font-weight: bold;
 }

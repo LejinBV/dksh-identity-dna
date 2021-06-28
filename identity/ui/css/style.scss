@@ -527,7 +527,7 @@ body{
         @media (max-width:640px) {
           flex-direction: column;
           width: auto;
-          margin-left: 30px;
+          margin-left: 0;
           margin-right: 30px;
           margin-bottom: auto;
           margin-top: 0;
@@ -1054,8 +1054,8 @@ body{
         }
         .name {
           font-size: 20px;
-          color: $white;
-          background: $m-blue;
+          color: $black;
+          background: $white;
           padding:20px 20px;
           font-weight: bold;
         }
