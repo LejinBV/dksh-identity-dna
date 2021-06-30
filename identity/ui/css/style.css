@@ -144,20 +144,6 @@ p {
   }
 }
 
-ul li {
-  font-size: 1.563rem;
-  line-height: 2.406rem;
-  color: #4d4d4d;
-  font-weight: 100;
-}
-
-@media (max-width: 1028px) {
-  ul li {
-    font-size: 1.2rem;
-    line-height: 1.9rem;
-  }
-}
-
 .id-header {
   background: #EF233C;
   padding: 0;
@@ -1307,6 +1293,21 @@ footer .copyright {
 
 .faq-wraper .container .accordion .accordion-body {
   padding: 40px;
+}
+
+.faq-wraper .container .accordion .accordion-body ul li {
+  font-size: 1.563rem;
+  line-height: 2.406rem;
+  color: #4d4d4d;
+  font-weight: 100;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 1028px) {
+  .faq-wraper .container .accordion .accordion-body ul li {
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+  }
 }
 
 .faq-wraper .container .accordion .accordion-button:not(.collapsed) {
