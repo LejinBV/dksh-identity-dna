@@ -7,7 +7,7 @@ html{
 }
 body{
   overflow-x: hidden;
-  font-size: 25px;
+  
 }
 body, html{
 		height: 100%;
@@ -15,6 +15,7 @@ body, html{
 		*{
 				font-family: 'Noto Sans', sans-serif;
 		}
+    font-size: 16px;
 	}
 	p{
     font-size: 1.563rem;
