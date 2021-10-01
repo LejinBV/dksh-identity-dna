@@ -584,7 +584,7 @@ p {
   opacity: 1;
 }
 
-.our-purpose, .our-strategy, .our-culture, .our-promise {
+.our-purpose, .our-strategy, .our-vision, .our-culture, .our-promise {
   overflow: hidden;
   height: 100%;
   background: #fff;
@@ -592,20 +592,20 @@ p {
 }
 
 @media (max-width: 640px) {
-  .our-purpose, .our-strategy, .our-culture, .our-promise {
+  .our-purpose, .our-strategy, .our-vision, .our-culture, .our-promise {
     height: 1500px;
   }
 }
 
-.our-purpose .row, .our-strategy .row, .our-culture .row, .our-promise .row {
+.our-purpose .row, .our-strategy .row, .our-vision .row, .our-culture .row, .our-promise .row {
   height: 100%;
 }
 
-.our-purpose .row .col-sm-6, .our-strategy .row .col-sm-6, .our-culture .row .col-sm-6, .our-promise .row .col-sm-6 {
+.our-purpose .row .col-sm-6, .our-strategy .row .col-sm-6, .our-vision .row .col-sm-6, .our-culture .row .col-sm-6, .our-promise .row .col-sm-6 {
   height: 100%;
 }
 
-.our-purpose .row .purpose-bg, .our-strategy .row .purpose-bg, .our-culture .row .purpose-bg, .our-promise .row .purpose-bg {
+.our-purpose .row .purpose-bg, .our-strategy .row .purpose-bg, .our-vision .row .purpose-bg, .our-culture .row .purpose-bg, .our-promise .row .purpose-bg {
   background: url(../images/purpose.jpg) left;
   background-size: cover;
 }
@@ -631,6 +631,31 @@ p {
 
 @media (max-width: 992px) {
   .our-strategy .col-lg-6 {
+    height: 50%;
+  }
+}
+
+.our-vision {
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .our-vision {
+    height: 1500px;
+  }
+}
+
+.our-vision .vision-bg {
+  background: url(../images/vision.jpg) center;
+  background-size: cover;
+}
+
+.our-vision .col-lg-6 {
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .our-vision .col-lg-6 {
     height: 50%;
   }
 }
