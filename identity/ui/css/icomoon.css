@@ -23,7 +23,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.icon-sf:before {
+  content: "\e918";
+}
 .icon-arrow-down:before {
     content: "\e900";
   }
